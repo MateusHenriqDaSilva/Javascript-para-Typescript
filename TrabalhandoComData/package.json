@@ -1,0 +1,14 @@
+{
+  "name": "entendendotypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json": "json-server data.js -p 4600",
+    "serve": "react-scripts start",
+    "start": "npm-run-all -p serve json"
+  },
+  "author": "",
+  "license": "ISC"
+}
